@@ -20,7 +20,7 @@ async function run () {
   await page.type('#password', "TROCAR PELA SENHA");
   page.click('button[type=submit]');
   await sleep(15)
-  await await solve(page)
+  await solve(page)
 
   const localStorage = await page.evaluate(() =>  Object.assign({}, window.localStorage));
   fs.writeFile('token.txt', localStorage.oauth_sso_token, function (err) {
