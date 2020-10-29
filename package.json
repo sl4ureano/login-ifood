@@ -3,12 +3,26 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "repository": "github:sl4ureano/login-ifood",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sl4ureano/login-ifood.git"
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "fs": "0.0.1-security",
+    "https": "^1.0.0",
     "puppeteer": "^3.1.0",
-    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra": "^3.1.15",
     "puppeteer-extra-plugin-stealth": "^2.4.9"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/sl4ureano/login-ifood/issues"
+  },
+  "homepage": "https://github.com/sl4ureano/login-ifood#readme",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "description": ""
 }
